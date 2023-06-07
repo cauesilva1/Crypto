@@ -55,6 +55,15 @@ export default function Header() {
         <p className={inter.className}>Horario atual:</p>
         <p className={inter.className}>{localTime}</p>
       </div>
+
+      <div>
+
+        <a href="/graficos" className={styles.graficos}> graficos</a>
+
+      </div>
+
+
+
       <div className={styles.crypto}>
         {cryptoData.map((crypto, index) => (
           <div className={styles.moedas} key={index}>

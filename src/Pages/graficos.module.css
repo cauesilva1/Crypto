@@ -1,0 +1,72 @@
+.main {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+  }
+
+  .voltarpagina{
+    color: #ffff;
+  }
+
+
+  .cardcript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #323232;
+    width: 35rem;
+    height: 23rem;
+    border-radius: 0.7rem;
+    border: 1px solid #e5ff00c7;
+    box-shadow: 0 0 14px 0 rgba(229, 255, 0, 0.356);
+  }
+
+  .cardcript:hover{
+    transition: 0.7s;
+    background-color: #f6f6f628;
+  }
+
+  .cardcript h3{
+    color: #fff;
+  }
+
+
+  .imgcard{
+    margin-right: 80%;
+  }
+
+  .grafico{
+    height: 15rem;
+    width: 70%;
+    /* background-color: aliceblue; */
+    border: 1px solid #e5ff0063;
+    border-radius: 0.5rem;
+  }
+
+  .criptos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+.image{
+    width: 4rem;
+    height: auto;
+ }
+ 
+ .image2{
+   width: 5rem;
+   height: auto;
+ }
+ 
+ 
+ .criptos a:hover{
+   background-color: #e5ff0042;
+   transition: 0.7s;
+ 
+ }
