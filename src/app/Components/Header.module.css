@@ -1,0 +1,62 @@
+.header {
+    height: 5rem;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30rem;
+  }
+
+  .crypto{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-right: 2rem;
+    color: #ffff;
+  }
+
+  .leftSection{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #ffff;
+  }
+
+
+/* mobile */
+@media (max-width: 450px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .logo {
+      margin-left: 0;
+    }
+  
+    .header {
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.25);
+      position: relative;
+      left: 0;
+      transition: all .3s;
+      animation-iteration-count: infinite;
+      animation-name: headermovies;
+      animation-direction: ease-in-out;
+      animation-duration: 10s;
+    }
+  
+    @keyframes headermovies {
+      0% {
+        left: -100%;
+      }
+      50% {
+        left: 100%;
+      }
+      100% {
+        left: -100%;
+      }
+    }
+  }
